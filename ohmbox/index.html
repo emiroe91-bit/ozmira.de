@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ohmbox – Elektro Rechner</title>
+<meta name="description" content="Ohmbox ist eine Sammlung von 12 Rechnern für Elektriker im deutschsprachigen Raum. Offline nutzbar, ohne Werbung, ohne Konto.">
+<style>
+:root{--navy:#0B1B33;--navy2:#143E69;--amber:#FFC433;--grey:#9EB2CA;--card:#12294a}
+*{box-sizing:border-box}
+body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+background:var(--navy);color:#E8EEF6;line-height:1.65}
+.wrap{max-width:760px;margin:0 auto;padding:0 22px}
+header{background:linear-gradient(160deg,var(--navy),var(--navy2));padding:64px 0 56px;text-align:center}
+.mark{font-size:88px;color:var(--amber);font-weight:700;line-height:1;margin:0 0 14px}
+h1{margin:0 0 10px;font-size:34px;letter-spacing:-.5px}
+.tag{color:var(--amber);font-size:19px;margin:0 0 6px}
+.sub{color:var(--grey);font-size:15px;margin:0}
+main{padding:52px 0 20px}
+h2{font-size:21px;margin:38px 0 12px}
+ul{padding-left:20px}li{margin:7px 0}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:14px;margin-top:18px}
+.card{background:var(--card);border:1px solid #1d3a60;border-radius:12px;padding:16px 18px}
+.card b{color:var(--amber);display:block;margin-bottom:4px;font-size:15px}
+.card span{font-size:14px;color:var(--grey)}
+.note{background:#1a1206;border-left:3px solid var(--amber);padding:14px 18px;border-radius:0 8px 8px 0;font-size:14.5px;margin-top:34px}
+footer{border-top:1px solid #1d3a60;margin-top:54px;padding:26px 0 44px;font-size:14px;color:var(--grey)}
+a{color:var(--amber)}
+footer a{margin-right:18px}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <p class="mark">&#937;</p>
+    <h1>Ohmbox</h1>
+    <p class="tag">12 Rechner für Elektriker</p>
+    <p class="sub">Querschnitt &middot; Spannungsfall &middot; Absicherung</p>
+  </div>
+</header>
+
+<main class="wrap">
+  <h2>Was die App kann</h2>
+  <div class="grid">
+    <div class="card"><b>Grundlagen</b><span>Ohmsches Gesetz, Einheitenumrechner, Widerstandsfarbcode, Leistung einphasig</span></div>
+    <div class="card"><b>Installation</b><span>Spannungsfall, Kabelquerschnitt, Leitungsschutzschalter, Kurzschlussstrom, Erdungswiderstand</span></div>
+    <div class="card"><b>Motoren &amp; Anlagen</b><span>Anlaufstrom, Leistung dreiphasig, Blindleistungskompensation</span></div>
+  </div>
+
+  <h2>Warum Ohmbox</h2>
+  <ul>
+    <li><strong>Offline nutzbar.</strong> Alles rechnet direkt auf dem Gerät. Kein Server, keine Verbindung nötig.</li>
+    <li><strong>Auf den europäischen Raum ausgelegt.</strong> Formeln und Werte orientieren sich an den hier üblichen Regeln, nicht an US-amerikanischen Vorgaben.</li>
+    <li><strong>Keine Werbung, kein Konto, keine Datensammelei.</strong> Es gibt nichts zu registrieren.</li>
+    <li><strong>Berechnungen speichern</strong> und später wieder aufrufen.</li>
+  </ul>
+
+  <div class="note">
+    <strong>Wichtiger Hinweis</strong><br>
+    Ohmbox ist ein Hilfsmittel zur Überschlagsrechnung und ersetzt weder die gültigen Normen und
+    Vorschriften noch die fachliche Beurteilung durch eine Elektrofachkraft. Alle Ergebnisse sind vor
+    der Anwendung eigenverantwortlich zu prüfen. Arbeiten an elektrischen Anlagen dürfen ausschließlich
+    von qualifizierten Fachkräften ausgeführt werden.
+  </div>
+</main>
+
+<footer class="wrap">
+  <a href="datenschutz.html">Datenschutzerklärung</a>
+  <a href="../impressum.html">Impressum</a>
+  <p style="margin:16px 0 0">Ohmbox ist ein Produkt von <strong style="color:#E8EEF6">Ozmira</strong>.</p>
+</footer>
+</body>
+</html>
