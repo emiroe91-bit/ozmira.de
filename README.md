@@ -36,5 +36,8 @@ führen. Also nichts umbenennen oder verschieben, was bereits in einem Store-Ein
 
 ## Veröffentlichen
 
-Repository-Einstellungen → Pages → Branch `main`, Ordner `/ (root)`. Nach zwei bis drei
-Minuten ist die Seite unter `https://ozmira.github.io/` erreichbar.
+Repository-Einstellungen → Pages → Branch `main`, Ordner `/ (root)`. Als Custom Domain ist
+`ozmira.de` eingetragen, die Seite ist also unter `https://ozmira.de/` erreichbar.
+
+Die Datei `CNAME` im Repository legt GitHub beim Eintragen der Custom Domain selbst an.
+Nicht löschen, sonst fällt die Seite auf die github.io-Adresse zurück.
