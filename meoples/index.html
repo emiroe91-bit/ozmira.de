@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Meoples – Der Spieleabend-Planer</title>
+<meta name="description" content="Meoples ist ein Spieleabend-Planer für Brettspielfans: Sammlung laden, passendes Spiel nach Spieleranzahl, Zeit und Komplexität finden, neue Mitspieler:innen entdecken.">
+<style>
+:root{--navy:#0B1B33;--navy2:#143E69;--amber:#FFC433;--grey:#9EB2CA;--card:#12294a}
+*{box-sizing:border-box}
+body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+background:var(--navy);color:#E8EEF6;line-height:1.65}
+.wrap{max-width:760px;margin:0 auto;padding:0 22px}
+header{background:linear-gradient(160deg,var(--navy),var(--navy2));padding:64px 0 56px;text-align:center}
+.mark{width:88px;height:88px;border-radius:22px;margin:0 auto 18px;overflow:hidden;display:block}
+.mark img{width:100%;height:100%;object-fit:cover;display:block}
+h1{margin:0 0 10px;font-size:34px;letter-spacing:-.5px}
+.tag{color:var(--amber);font-size:19px;margin:0 0 6px}
+.sub{color:var(--grey);font-size:15px;margin:0}
+main{padding:52px 0 20px}
+h2{font-size:21px;margin:38px 0 12px}
+ul{padding-left:20px}li{margin:7px 0}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:14px;margin-top:18px}
+.card{background:var(--card);border:1px solid #1d3a60;border-radius:12px;padding:16px 18px}
+.card b{color:var(--amber);display:block;margin-bottom:4px;font-size:15px}
+.card span{font-size:14px;color:var(--grey)}
+.note{background:#1a1206;border-left:3px solid var(--amber);padding:14px 18px;border-radius:0 8px 8px 0;font-size:14.5px;margin-top:34px}
+.cta{display:inline-block;margin-top:8px;background:var(--amber);color:#0B1B33;font-weight:700;
+text-decoration:none;padding:12px 22px;border-radius:10px;font-size:15px}
+footer{border-top:1px solid #1d3a60;margin-top:54px;padding:26px 0 44px;font-size:14px;color:var(--grey)}
+a{color:var(--amber)}
+footer a{margin-right:18px}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <span class="mark"><img src="../assets/meoples-icon.png" alt=""></span>
+    <h1>Meoples</h1>
+    <p class="tag">Der Spieleabend-Planer, der wirklich hilft</p>
+    <p class="sub">Sammlung &middot; Empfehlungen &middot; Mitspieler:innen finden</p>
+    <p style="margin-top:22px">
+      <a class="cta" href="https://spielabend-planer-app.vercel.app" rel="noopener">Meoples ausprobieren</a>
+    </p>
+  </div>
+</header>
+
+<main class="wrap">
+  <h2>Was die App kann</h2>
+  <div class="grid">
+    <div class="card"><b>Der Planer</b><span>Spielesammlung laden (BoardGameGeek-Import oder von Hand), Spieleranzahl und Zeit einstellen, sofort sehen, was heute wirklich passt.</span></div>
+    <div class="card"><b>Community</b><span>Freunde, Nachrichten, neue Mitspieler:innen in der Nähe entdecken, öffentlichen Spieleabenden beitreten oder selbst welche anlegen.</span></div>
+    <div class="card"><b>Verlauf &amp; mehr</b><span>Merkzettel für Spiele und Treffen, Statistik über gespielte Abende, Kaufberater vor der nächsten Spiele-Anschaffung.</span></div>
+  </div>
+
+  <h2>Warum Meoples</h2>
+  <ul>
+    <li><strong>Der Planer funktioniert ganz ohne Konto.</strong> Sammlung rein, Runde einstellen, Empfehlung bekommen.</li>
+    <li><strong>Passung statt Zufall.</strong> Die Empfehlung berücksichtigt Spieleranzahl, verfügbare Zeit und gewünschte Komplexität – mit Profil zusätzlich den persönlichen Geschmack.</li>
+    <li><strong>Für die Stammrunde und für neue Leute.</strong> Community-Funktionen helfen sowohl bestehenden Spielrunden bei der Organisation als auch allen, die neue Mitspieler:innen suchen.</li>
+    <li><strong>Datenschutzbewusst.</strong> Standortangaben sind immer nur grob gerundet (rund 1 km), nie eine genaue Adresse.</li>
+  </ul>
+
+  <div class="note">
+    <strong>Hinweis</strong><br>
+    Meoples befindet sich aktuell in der Testphase. Feedback ist ausdrücklich willkommen – Kontakt über die
+    E-Mail-Adresse im Impressum.
+  </div>
+</main>
+
+<footer class="wrap">
+  <a href="https://spielabend-planer-app.vercel.app/datenschutz" rel="noopener">Datenschutzerklärung</a>
+  <a href="../impressum.html">Impressum</a>
+  <p style="margin:16px 0 0">Meoples ist ein Produkt von <strong style="color:#E8EEF6">Ozmira</strong>.</p>
+</footer>
+</body>
+</html>
